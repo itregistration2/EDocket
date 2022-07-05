@@ -1,0 +1,9 @@
+com/edocket/customer/MainActivity.java
+ com.edocket.customer.MainActivity
+com/edocket/customer/BuildConfig.java
+ com.edocket.customer.BuildConfig
+com/edocket/customer/MainApplication.java
+ com.edocket.customer.MainApplication
+ com.edocket.customer.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

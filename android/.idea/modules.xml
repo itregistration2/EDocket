@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Edocket.iml" filepath="$PROJECT_DIR$/.idea/modules/Edocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Edocket.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Edocket.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1406581765/Edocket.react-native-android-keyboard-adjust.iml" filepath="$PROJECT_DIR$/.idea/modules/-1406581765/Edocket.react-native-android-keyboard-adjust.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/721937169/Edocket.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/721937169/Edocket.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1515322945/Edocket.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1515322945/Edocket.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1187190711/Edocket.react-native-community_art.iml" filepath="$PROJECT_DIR$/.idea/modules/-1187190711/Edocket.react-native-community_art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1691858255/Edocket.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1691858255/Edocket.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/441094833/Edocket.react-native-date-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/441094833/Edocket.react-native-date-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-293336890/Edocket.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/-293336890/Edocket.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/960696556/Edocket.react-native-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/960696556/Edocket.react-native-fetch-blob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1839459363/Edocket.react-native-firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/1839459363/Edocket.react-native-firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/679961322/Edocket.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/679961322/Edocket.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1299912444/Edocket.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1299912444/Edocket.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-293307224/Edocket.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-293307224/Edocket.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1316065522/Edocket.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1316065522/Edocket.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1259170003/Edocket.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1259170003/Edocket.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1255875755/Edocket.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1255875755/Edocket.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1626484739/Edocket.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/1626484739/Edocket.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-83360479/Edocket.react-native-snackbar.iml" filepath="$PROJECT_DIR$/.idea/modules/-83360479/Edocket.react-native-snackbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-891533386/Edocket.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-891533386/Edocket.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1127377544/Edocket.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1127377544/Edocket.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/415870252/Edocket.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/415870252/Edocket.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/514818333/Edocket.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/514818333/Edocket.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>

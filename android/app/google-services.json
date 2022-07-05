@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "678341966323",
+    "project_id": "edocketcustomer",
+    "storage_bucket": "edocketcustomer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678341966323:android:71413b165253e01ffb3a86",
+        "android_client_info": {
+          "package_name": "com.edocket.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678341966323-tucasnisiv4p4m4bk7spsd50vffm0cqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFkqhaYEZFaG4P4CJS2Ry65YpbkX3r2Co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678341966323-tucasnisiv4p4m4bk7spsd50vffm0cqp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "678341966323-b0ufjercjlrl8tc8gfdp0t4p23k5rtte.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.edocket.ios",
+                "app_store_id": "1622631750"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

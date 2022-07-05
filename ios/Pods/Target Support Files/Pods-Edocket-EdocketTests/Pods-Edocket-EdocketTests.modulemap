@@ -1,0 +1,6 @@
+module Pods_Edocket_EdocketTests {
+  umbrella header "Pods-Edocket-EdocketTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,483 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.edocket.customer"
+4    android:versionCode="4"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:9:5-78
+11-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:9:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:8:5-81
+16-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.93.0] /Users/catalina/.gradle/caches/transforms-3/634d8c39e3614400e48a7a3f397367b6/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.93.0] /Users/catalina/.gradle/caches/transforms-3/634d8c39e3614400e48a7a3f397367b6/transformed/jetified-flipper-0.93.0/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-community_netinfo] /Users/catalina/Desktop/Edocket/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+18-->[:react-native-community_netinfo] /Users/catalina/Desktop/Edocket/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+19
+20    <uses-feature
+20-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+25        android:required="false" />
+25-->[:react-native-camera] /Users/catalina/Desktop/Edocket/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+27-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+28-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+28-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+29    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+30    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+31    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+32    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+33    <!-- for Samsung -->
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+34-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:19:5-86
+34-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:19:22-83
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+35-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:20:5-87
+35-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:20:22-84
+36    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+36-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:23:5-81
+36-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:23:22-78
+37    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+37-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:24:5-83
+37-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:24:22-80
+38    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+38-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:27:5-88
+38-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:27:22-85
+39    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+39-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:28:5-92
+39-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:28:22-89
+40    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+40-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:31:5-84
+40-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:31:22-81
+41    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+41-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:34:5-83
+41-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:34:22-80
+42    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+42-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:37:5-91
+42-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:37:22-88
+43    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+43-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:38:5-92
+43-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:38:22-89
+44    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+44-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:39:5-93
+44-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:39:22-90
+45    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+45-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:42:5-73
+45-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:42:22-70
+46    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+46-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:45:5-82
+46-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:45:22-79
+47    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+47-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:46:5-83
+47-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:46:22-80
+48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+48-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:49:5-88
+48-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:49:22-85
+49    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+49-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:50:5-89
+49-->[me.leolin:ShortcutBadger:1.1.21] /Users/catalina/.gradle/caches/transforms-3/b12854d20b563b8a5a2793c0e657b7d9/transformed/jetified-ShortcutBadger-1.1.21/AndroidManifest.xml:50:22-86
+50    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+50-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
+50-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+51
+52    <application
+52-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:11:5-57:19
+53        android:name="com.edocket.customer.MainApplication"
+53-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:13:7-38
+54        android:allowBackup="false"
+54-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:17:7-34
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.6.0] /Users/catalina/.gradle/caches/transforms-3/f1e4710aca4063eabfb8fd8003b945c6/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:15:7-41
+58        android:label="@string/app_name"
+58-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:14:7-39
+59        android:largeHeap="true"
+59-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:12:9-33
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:16:7-52
+61        android:theme="@style/AppTheme"
+61-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:18:7-38
+62        android:usesCleartextTraffic="true" >
+62-->/Users/catalina/Desktop/Edocket/android/app/src/debug/AndroidManifest.xml:8:9-44
+63        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+63-->/Users/catalina/Desktop/Edocket/android/app/src/debug/AndroidManifest.xml:11:9-86
+63-->/Users/catalina/Desktop/Edocket/android/app/src/debug/AndroidManifest.xml:11:19-83
+64        <activity
+64-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:19:7-31:18
+65            android:name="com.edocket.customer.MainActivity"
+65-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:20:9-37
+66            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+66-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:22:9-86
+67            android:label="@string/app_name"
+67-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:21:9-41
+68            android:launchMode="singleTask"
+68-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:23:9-40
+69            android:screenOrientation="portrait"
+69-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:25:9-45
+70            android:windowSoftInputMode="adjustResize" >
+70-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:24:9-51
+71            <intent-filter>
+71-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:26:9-30:25
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:27:13-65
+72-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:27:21-62
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:28:13-73
+74-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:28:23-70
+75
+76                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+76-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:29:13-77
+76-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:29:21-75
+77            </intent-filter>
+78        </activity>
+79
+80        <meta-data
+80-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:32:9-34:46
+81            android:name="com.google.firebase.messaging.default_notification_channel_id"
+81-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:33:13-89
+82            android:value="EdocketCustomer" />
+82-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:34:13-44
+83        <meta-data
+83-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:36:9-38:57
+84            android:name="com.google.firebase.messaging.default_notification_icon"
+84-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:37:13-83
+85            android:resource="@mipmap/ed_transparent" />
+85-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:38:13-54
+86
+87        <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService" >
+87-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:40:9-44:19
+87-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:40:18-91
+88            <intent-filter>
+88-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:41:13-43:29
+89                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+89-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:42:17-78
+89-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:42:25-75
+90            </intent-filter>
+91        </service>
+92        <service android:name="io.invertase.firebase.messaging.RNFirebaseInstanceIdService" >
+92-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:45:9-49:19
+92-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:45:18-92
+93            <intent-filter>
+93-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:46:13-48:29
+94                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+94-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:47:17-79
+94-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:47:25-77
+95            </intent-filter>
+96        </service>
+97        <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" />
+97-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:50:9-103
+97-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:50:18-101
+98
+99        <receiver
+99-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:51:9-55:20
+100            android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionReceiver"
+100-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:51:19-116
+101            android:exported="true" >
+101-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:51:117-140
+102            <intent-filter>
+102-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:52:13-54:29
+103                <action android:name="io.invertase.firebase.notifications.BackgroundAction" />
+103-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:53:17-94
+103-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:53:25-92
+104            </intent-filter>
+105        </receiver>
+106
+107        <service android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionsService" />
+107-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:56:9-117
+107-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:56:18-115
+108        <service
+108-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+112            <meta-data
+112-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+113                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+113-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:react-native-firebase] /Users/catalina/Desktop/Edocket/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+116                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+116-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:21.1.0] /Users/catalina/.gradle/caches/transforms-3/7c4b78b80b541155ac69ced6e0f60a1f/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:21.1.0] /Users/catalina/.gradle/caches/transforms-3/7c4b78b80b541155ac69ced6e0f60a1f/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:21.1.0] /Users/catalina/.gradle/caches/transforms-3/7c4b78b80b541155ac69ced6e0f60a1f/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/catalina/.gradle/caches/transforms-3/086d992654a0dc402758491bfd2e92d3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+122                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+122-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/catalina/.gradle/caches/transforms-3/086d992654a0dc402758491bfd2e92d3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/catalina/.gradle/caches/transforms-3/086d992654a0dc402758491bfd2e92d3/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+124            <meta-data
+124-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/catalina/.gradle/caches/transforms-3/362a51bf1f9f0e83ef9b842217e3b2e6/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+125-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/catalina/.gradle/caches/transforms-3/362a51bf1f9f0e83ef9b842217e3b2e6/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/catalina/.gradle/caches/transforms-3/362a51bf1f9f0e83ef9b842217e3b2e6/transformed/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-installations:17.0.0] /Users/catalina/.gradle/caches/transforms-3/e27959be703ba9ffe3d129b751deeb8e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+128                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+128-->[com.google.firebase:firebase-installations:17.0.0] /Users/catalina/.gradle/caches/transforms-3/e27959be703ba9ffe3d129b751deeb8e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-installations:17.0.0] /Users/catalina/.gradle/caches/transforms-3/e27959be703ba9ffe3d129b751deeb8e/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+130        </service>
+131
+132        <provider
+132-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+133            android:name="cl.json.RNShareFileProvider"
+133-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-55
+134            android:authorities="com.edocket.customer.rnshare.fileprovider"
+134-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-72
+135            android:exported="false"
+135-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+136            android:grantUriPermissions="true" >
+136-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+137            <meta-data
+137-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:64
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+139                android:resource="@xml/share_download_paths" />
+139-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-61
+140        </provider>
+141        <provider
+141-->[:react-native-webview] /Users/catalina/Desktop/Edocket/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+142            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+142-->[:react-native-webview] /Users/catalina/Desktop/Edocket/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+143            android:authorities="com.edocket.customer.fileprovider"
+143-->[:react-native-webview] /Users/catalina/Desktop/Edocket/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+144            android:exported="false"
+144-->[:react-native-webview] /Users/catalina/Desktop/Edocket/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+145            android:grantUriPermissions="true" >
+145-->[:react-native-webview] /Users/catalina/Desktop/Edocket/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+146            <meta-data
+146-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:64
+147                android:name="android.support.FILE_PROVIDER_PATHS"
+147-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+148                android:resource="@xml/file_provider_paths" />
+148-->[:react-native-share] /Users/catalina/Desktop/Edocket/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-61
+149        </provider>
+150
+151        <service
+151-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:9:9-15:19
+152            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+152-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:10:13-91
+153            android:directBootAware="true"
+153-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+154            android:exported="false" >
+154-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:11:13-37
+155            <meta-data
+155-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+156                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+156-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/catalina/.gradle/caches/transforms-3/508dfe712c8596807df91d4be99651f8/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+158            <meta-data
+158-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/catalina/.gradle/caches/transforms-3/443ed61dab8ffbcb25d48ddc4a8286b9/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+159                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+159-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/catalina/.gradle/caches/transforms-3/443ed61dab8ffbcb25d48ddc4a8286b9/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/catalina/.gradle/caches/transforms-3/443ed61dab8ffbcb25d48ddc4a8286b9/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+161            <meta-data
+161-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/catalina/.gradle/caches/transforms-3/7ed51b3509d70e94acec20e26c5611b0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+162                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+162-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/catalina/.gradle/caches/transforms-3/7ed51b3509d70e94acec20e26c5611b0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/catalina/.gradle/caches/transforms-3/7ed51b3509d70e94acec20e26c5611b0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+164            <meta-data
+164-->[com.google.mlkit:vision-common:16.5.0] /Users/catalina/.gradle/caches/transforms-3/c34d68af35779a6d53534787544b9fbc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+165                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+165-->[com.google.mlkit:vision-common:16.5.0] /Users/catalina/.gradle/caches/transforms-3/c34d68af35779a6d53534787544b9fbc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.mlkit:vision-common:16.5.0] /Users/catalina/.gradle/caches/transforms-3/c34d68af35779a6d53534787544b9fbc/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+167            <meta-data
+167-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+168                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+168-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+170        </service>
+171
+172        <provider
+172-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+173            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+173-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+174            android:authorities="com.edocket.customer.mlkitinitprovider"
+174-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+175            android:exported="false"
+175-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+176            android:initOrder="99" />
+176-->[com.google.mlkit:common:17.2.0] /Users/catalina/.gradle/caches/transforms-3/bbcb0fcea806a9d6f8223dc5bc88edef/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+177
+178        <activity
+178-->[com.google.android.gms:play-services-base:17.6.0] /Users/catalina/.gradle/caches/transforms-3/9cd33f247e76adde61b0d4c54abb58ea/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+179            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+179-->[com.google.android.gms:play-services-base:17.6.0] /Users/catalina/.gradle/caches/transforms-3/9cd33f247e76adde61b0d4c54abb58ea/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-base:17.6.0] /Users/catalina/.gradle/caches/transforms-3/9cd33f247e76adde61b0d4c54abb58ea/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+181            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+181-->[com.google.android.gms:play-services-base:17.6.0] /Users/catalina/.gradle/caches/transforms-3/9cd33f247e76adde61b0d4c54abb58ea/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+182
+183        <receiver
+183-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+184            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+184-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+185            android:exported="true"
+185-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+186            android:permission="com.google.android.c2dm.permission.SEND" >
+186-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+187            <intent-filter>
+187-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+188                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+189            </intent-filter>
+190        </receiver>
+191        <!--
+192             FirebaseMessagingService performs security checks at runtime,
+193             but set to not exported to explicitly avoid allowing another app to call it.
+194        -->
+195        <service
+195-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+196            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+196-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-messaging:22.0.0] /Users/catalina/.gradle/caches/transforms-3/5f61f486d91b4fd951ff5e622f2f5a85/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+199            <intent-filter android:priority="-500" >
+199-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:41:13-43:29
+200                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+200-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:42:17-78
+200-->/Users/catalina/Desktop/Edocket/android/app/src/main/AndroidManifest.xml:42:25-75
+201            </intent-filter>
+202        </service>
+203        <service
+203-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+204            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+204-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+205            android:exported="false" >
+205-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+206            <meta-data
+206-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+207                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+207-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+208                android:value="cct" />
+208-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/catalina/.gradle/caches/transforms-3/d8f9bcf8abc3d00437f0859f84235e81/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+209        </service>
+210
+211        <provider
+211-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+212            android:name="com.google.firebase.provider.FirebaseInitProvider"
+212-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+213            android:authorities="com.edocket.customer.firebaseinitprovider"
+213-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+215            android:exported="false"
+215-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+216            android:initOrder="100" />
+216-->[com.google.firebase:firebase-common:20.0.0] /Users/catalina/.gradle/caches/transforms-3/6721b91e88f4903bb576b22f4813759c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+217
+218        <service
+218-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+219            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+219-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+220            android:exported="false"
+220-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" >
+221-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+222        </service>
+223
+224        <receiver
+224-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+225            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+225-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+226            android:exported="false" />
+226-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/catalina/.gradle/caches/transforms-3/15ad11e01e4e5c6ddbd03dabd441cbfa/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+227
+228        <meta-data
+228-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/catalina/.gradle/caches/transforms-3/e0859e80ec9558fddc3a6d0a0d74b18e/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+229            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+229-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/catalina/.gradle/caches/transforms-3/e0859e80ec9558fddc3a6d0a0d74b18e/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+230            android:value="GlideModule" />
+230-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/catalina/.gradle/caches/transforms-3/e0859e80ec9558fddc3a6d0a0d74b18e/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+231
+232        <receiver
+232-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
+233            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+233-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
+234            android:enabled="true"
+234-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
+235            android:exported="false" >
+235-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
+236        </receiver>
+237
+238        <service
+238-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
+239            android:name="com.google.android.gms.measurement.AppMeasurementService"
+239-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
+240            android:enabled="true"
+240-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
+241            android:exported="false" />
+241-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
+242        <service
+242-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
+243            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+243-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
+246            android:permission="android.permission.BIND_JOB_SERVICE" />
+246-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/catalina/.gradle/caches/transforms-3/b689789d60f93d7e8ab1b2350761be23/transformed/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+247
+248        <meta-data
+248-->[com.google.android.gms:play-services-basement:17.6.0] /Users/catalina/.gradle/caches/transforms-3/4e91c33931580c9127ee2bee06fdfb07/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+249            android:name="com.google.android.gms.version"
+249-->[com.google.android.gms:play-services-basement:17.6.0] /Users/catalina/.gradle/caches/transforms-3/4e91c33931580c9127ee2bee06fdfb07/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+250            android:value="@integer/google_play_services_version" />
+250-->[com.google.android.gms:play-services-basement:17.6.0] /Users/catalina/.gradle/caches/transforms-3/4e91c33931580c9127ee2bee06fdfb07/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+251    </application>
+252
+253</manifest>

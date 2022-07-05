@@ -1,0 +1,6 @@
+module Pods_Edocket {
+  umbrella header "Pods-Edocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
